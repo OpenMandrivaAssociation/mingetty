@@ -1,7 +1,7 @@
 Summary: 	A compact getty program for virtual consoles only
 Name: 		mingetty
 Version: 	1.07
-Release: 	%mkrel 6
+Release: 	%mkrel 7
 Group: 		System/Base
 License:	GPL
 URL:		ftp://jurix.jura.uni-sb.de/pub/linux/source/system/daemon/
@@ -20,6 +20,7 @@ lines (you should use the mgetty program instead for that purpose).
 %patch0 -p1 -b .opt
 
 %build
+%serverbuild
 
 make \
     CC="diet gcc" \
@@ -46,5 +47,3 @@ install -D mingetty.8 %{buildroot}%{_mandir}/man8/mingetty.8
 %attr(755,root,root) /sbin/mingetty
 %attr(755,root,root) /sbin/mingetty-DIET
 %{_mandir}/man8/mingetty.8*
-
-
