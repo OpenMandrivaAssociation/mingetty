@@ -8,6 +8,7 @@ URL:		ftp://jurix.jura.uni-sb.de/pub/linux/source/system/daemon/
 Source0: 	ftp://jurix.jura.uni-sb.de/pub/linux/source/system/daemons/%{name}-%{version}.tar.bz2
 Patch0:		mingetty-1.00-opt.patch
 BuildRequires:  dietlibc-devel	>= 0.29
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The mingetty program is a lightweight, minimalist getty program for
