@@ -1,7 +1,7 @@
 Summary: 	A compact getty program for virtual consoles only
 Name: 		mingetty
 Version: 	1.07
-Release: 	%mkrel 7
+Release: 	%mkrel 8
 Group: 		System/Base
 License:	GPL
 URL:		ftp://jurix.jura.uni-sb.de/pub/linux/source/system/daemon/
