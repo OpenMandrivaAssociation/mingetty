@@ -1,11 +1,11 @@
 Summary: 	A compact getty program for virtual consoles only
 Name: 		mingetty
-Version: 	1.07
-Release: 	%mkrel 10
+Version: 	1.08
+Release: 	%mkrel 1
 Group: 		System/Base
 License:	GPL
-URL:		ftp://jurix.jura.uni-sb.de/pub/linux/source/system/daemon/
-Source0: 	ftp://jurix.jura.uni-sb.de/pub/linux/source/system/daemons/%{name}-%{version}.tar.bz2
+URL:		http://mingetty.sourceforge.net/
+Source0: 	http://downloads.sourceforge.net/mingetty/%{name}-%{version}.tar.gz
 Patch0:		mingetty-1.00-opt.patch
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
