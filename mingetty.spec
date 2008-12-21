@@ -1,7 +1,7 @@
 Summary: 	A compact getty program for virtual consoles only
 Name: 		mingetty
 Version: 	1.08
-Release: 	%mkrel 2
+Release: 	%mkrel 3
 Group: 		System/Base
 License:	GPL
 URL:		http://mingetty.sourceforge.net/
@@ -21,7 +21,7 @@ lines (you should use the mgetty program instead for that purpose).
 %build
 %serverbuild
 
-%make RPM_OPTS="%{optflags}"
+%make RPM_OPTS="%{optflags}" LDFLAGS="%{ldflags}"
 
 %install
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
