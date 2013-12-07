@@ -1,7 +1,7 @@
 Summary:	A compact getty program for virtual consoles only
 Name:		mingetty
 Version:	1.08
-Release:	9
+Release:	10
 Group:		System/Base
 License:	GPLv2
 Url:		http://mingetty.sourceforge.net/
