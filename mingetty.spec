@@ -15,7 +15,7 @@ lines (you should use the mgetty program instead for that purpose).
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 %build
 %serverbuild
