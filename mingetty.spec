@@ -4,7 +4,7 @@ Version:	1.08
 Release:	21
 Group:		System/Base
 License:	GPLv2
-Url:		http://mingetty.sourceforge.net/
+Url:		https://mingetty.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/mingetty/%{name}-%{version}.tar.gz
 Patch1:		mingetty-1.08-check_chroot_chdir_nice.patch
 Patch2:		mingetty-1.08-openlog_authpriv.patch
